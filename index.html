@@ -8,16 +8,15 @@
   </head>
   <body class="page-index">
     <header class="main-header">
-        <div class="container">
-          <nav class="main-navigation">
-            <div class="container clearfix">
+        <div class="container clearfix">
+          <nav class="nav">
             <div class="logo">
               <a><img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс"></a>
             </div>
             <ul class="main-menu">
-              <li><a class="nav__link nav__link--active">Студия</a></li>
+              <li><a class="nav__link" href="#">Студия</a></li>
               <li><a class="nav__link" href="#">Клиенты</a></li>
-              <li><a class="nav__link" href="#">Магазин</a></li>
+              <li><a class="nav__link nav__link--active">Магазин</a></li>
               <li><a class="nav__link" href="#">Контакты</a></li>
             </ul>
           </nav>
@@ -25,17 +24,18 @@
           <a href="" class="cart"><img src="img/cart-icon.png" width="15" height="15" alt="Корзина">Корзина</a>
         </div>
         </div>
-    <div class="slogan">
-      <h1>Долго, дорого, скупулёзно.</h1>
-      <p>Математически выверенный дизайн<br>
-         для вашего сайта или мобильного предложения.</p>
-      <a href="" class="content">Узнать больше</a>
-    </div>
-    <ul class="slider"><!--как правильно сделать слайды и фото подключить?-->
-      <li><input type="radio" name="group1" class="active"></li>
-      <li><input type="radio" name="group1"></li>
-      <li><input type="radio" name="group1"></li>
-    </ul>
+    <div class="slogan-slider clearfix">
+      <div class="slogan">
+        <h1>Долго, дорого, скупулёзно.</h1>
+        <p>Математически выверенный дизайн<br>
+           для вашего сайта или мобильного предложения.</p>
+        <a href="" class="content">Узнать больше</a>
+      </div>
+      <ul class="slider"><!--как правильно сделать слайды и фото подключить?-->
+        <li><input type="radio" name="group1" class="active"></li>
+        <li><input type="radio" name="group1"></li>
+        <li><input type="radio" name="group1"></li>
+      </ul>
   </div>
     </header>
     <div class="products clearfix">
@@ -63,7 +63,7 @@
     </div>
     <div class="features clearfix">
       <section class="desc">
-        <h2>Мы маленькая, но гордая дизайн- студия из Краснодара.</h2>
+        <h2>Мы- маленькая, но гордая дизайн- студия из Краснодара.</h2>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы7</p>
           <div class="titel">Выполняем заказы на разработку</div>
           <ul class="services">
@@ -75,7 +75,7 @@
       <div class="desc-logo">
         <img class="logo" src="img/nerds-illustration.jpg" width="360" height="208" alt="Нёрдс">
         <div class="about-company">С 2004 года любим точность во всём:</div>
-        <ul>
+        <ul class="company-advantages">
           <li>146% Уровень самоотдачи</li>
           <li>100% Соблюдение сроков</li>
           <li>50% Минимальная предоплата</li>
@@ -90,26 +90,26 @@
       </div>
       <footer>
       <div id="map">
-      <div class="map clearfix">
-        <div class="contacts">
-        <div class="content-left">
-            <h4>NЁRDS DESIGN STUDIO</h4>
-            <p>191186, Санкт-Петербург,<br>
-               ул. Б. Конюшенная, д. 19/8</p>
-            <p>тел. +7(812) 275-75-75</p>
-            <a href="#">Напишите нам</a>
+         <div class="contacts-pointer">
+          <div class="contacts">
+              <h4>NЁRDS DESIGN STUDIO</h4>
+              <p>191186, Санкт-Петербург,<br>
+                 ул. Б. Конюшенная, д. 19/8</p>
+              <p>тел. +7(812) 275-75-75</p>
+              <a href="#">Напишите нам</a>
+          </div>
+          <div><img class="pointer" src="img/map-marker.png" width="231" height="190" alt="Нёрдс"></div>
         </div>
-        <div class="content-right"><img class="pointer" src="img/map-marker.png" width="231" height="190" alt="Нёрдс"></div>
-      </div>
     </div>
-    </div>
-     <div class="social">
-       <div class="main-social">
-        <a href="#" title="вконтакте" class="vk"><img src="img/vk-icon.png" width="26" height="15" alt="Вконтакте"></a>
-        <a href="#" title="фейсбук" class="facebook"><img src="img/fb-icon.png" width="26" height="15" alt="Фейсбук"></a>
-        <a href="#" title="инстограмм" class="instogramm"><img src="img/insta-icon.png" width="26" height="15" alt="Инстограмм"></a>
+      <div class="social clearfix">
+       <div class="footer-social">
+         <a href="#" title="вконтакте" class="vk"><img src="img/vk-icon.png" width="26" height="15" alt="Вконтакте"></a>
+         <a href="#" title="фейсбук" class="facebook"><img src="img/fb-icon.png" width="26" height="15" alt="Фейсбук"></a>
+         <a href="#" title="инстограмм" class="instogramm"><img src="img/insta-icon.png" width="26" height="15" alt="Инстограмм"></a>
+       </div>
+      <div class="footer-discount">
+        <p>Давайте дружить,это выгодно!</p> Скидка 10% для друзей из социальных сетей
       </div>
-        <div class=""><p>Давайте дружить, это выгодно!</p> Скидка 10% для друзей из социальных сетей.</div>
       </div>
     </footer>
   </body>

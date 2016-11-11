@@ -28,86 +28,94 @@
         </div>
     </div>
     </header>
-    <aside id="filter-form">
-      <form class="price-filter" action="URL" method="get">
-        <h2>Стоимость</h2>
-        <div class="scale">
-          <div class="bar">
-            <div class="min"></div>
-            <div class="max"></div>
+    <div class="container clearfix">
+      <aside id="filter-form">
+        <form class="price-filter" action="URL" method="get">
+          <h2>Стоимость</h2>
+          <div class="scale">
+            <div class="bar">
+              <div class="min"></div>
+              <div class="max"></div>
+            </div>
           </div>
-        </div>
-        <input type="text">
-        <input type="text">
-      </form>
-      <form class="grid-filter" action="URL" method="get">
-        <h2>Сетка:</h2>
-        <ul>
-          <li><label><input type="radio" name="grid" value="адаптивная" checked>Адаптивная</label></li>
-          <li><label><input type="radio" name="grid" value="фиксированная" >Фиксированная</label></li>
-          <li><label><input type="radio" name="grid" value="резиновая">Резиновая</label></li>
-        </ul>
+          <input type="text">
+          <input type="text">
         </form>
-      <form class="features-filter" action="URL" method="get">
-        <h2>Особенности:</h2>
-        <ul>
-         <li><label><input type="checkbox" name="features[]" value="слайдер" checked>Слайдер</label></li>
-         <li><label><input type="checkbox" name="features[]" value="блок преимуществ">Блок преимуществ</label></li>
-         <li><label><input type="checkbox" name="features[]" value="новости" checked>Новости</label></li>
-         <li><label><input type="checkbox" name="features[]" value="галерея">Галерея</label></li>
-         <li><label><input type="checkbox" name="features[]" value="корзина">Корзина</label></li>
-        </ul>
-      </form>
-        <div class="filter-submit">
-            <button type="submit">Показать</button>
-        </div>
-    </aside>
-    <div id="sort-widget">
-      <span class="sort-title">Сортировать</span>
-        <span class="sort-opitions">
-          <a href="#" class="by-price active" >По цене</a>
-          <a href="#" class="by-type">По типу</a>
-          <a href="#" class="by-name">По названию</a>
-        </span>
-        <span class="sort-derection">
-          <a href="#" class="desk active">&nbsp; </a>
-          <a href="#" class="asc">&nbsp;</a>
-        </span>
-        <div class="grid-product">
-          <article><img src="img/img-sedona.jpg" width="360" height="576" alt="sedona" class="product"> </article>
-          <article><img src="img/img-pink.jpg" width="360" height="576" alt="pink" class="product"> </article>
-          <article><img src="img/img-barbershop.jpg" width="360" height="576" alt="barbershop" class="product"> </article>
-          <article><img src="img/img-mishka.jpg" width="360" height="576" alt="mishka" class="product"> </article>
-          <article><img src="img/img-aplus.jpg" width="360" height="576" alt="aplus" class="product"> </article>
-          <article><img src="img/img-kvast.jpg" width="360" height="576" alt="kvast" class="product"> </article>
-        </div>
-        <div class="">
-          <ul class="pagination">
-            <li class="active"><a href="#" class="page-number">1</a></li>
-            <li><a href="#" class="page-number">2</a></li>
-            <li><a href="#" class="page-number">3</a></li>
-            <li><a href="#" class="page-next">Следующая</a></li>
+        <form class="grid-filter" action="URL" method="get">
+          <h2>Сетка:</h2>
+          <ul>
+            <li><label><input type="radio" name="grid" value="адаптивная" checked>Адаптивная</label></li>
+            <li><label><input type="radio" name="grid" value="фиксированная" >Фиксированная</label></li>
+            <li><label><input type="radio" name="grid" value="резиновая">Резиновая</label></li>
           </ul>
+          </form>
+        <form class="features-filter" action="URL" method="get">
+          <h2>Особенности:</h2>
+          <ul>
+           <li><label><input type="checkbox" name="features[]" value="слайдер" checked>Слайдер</label></li>
+           <li><label><input type="checkbox" name="features[]" value="блок преимуществ">Блок преимуществ</label></li>
+           <li><label><input type="checkbox" name="features[]" value="новости" checked>Новости</label></li>
+           <li><label><input type="checkbox" name="features[]" value="галерея">Галерея</label></li>
+           <li><label><input type="checkbox" name="features[]" value="корзина">Корзина</label></li>
+          </ul>
+        </form>
+          <div class="filter-submit">
+              <button type="submit">Показать</button>
+          </div>
+      </aside>
+      <div class="right-column">
+        <div class="sort-widget">
+          <span class="sort-title">Сортировать:</span>
+            <span class="sort-opitions">
+              <a href="#" class="by-price active" >По цене</a>
+              <a href="#" class="by-type">По типу</a>
+              <a href="#" class="by-name">По названию</a>
+            </span>
+            <span class="sort-derection">
+              <a href="#" class="desk active">&nbsp; </a>
+              <a href="#" class="asc">&nbsp;</a>
+            </span>
         </div>
+          <div class="grid-product">
+            <article><img src="img/img-sedona.jpg" width="360" height="576" alt="sedona" class="product"> </article>
+            <article><img src="img/img-pink.jpg" width="360" height="576" alt="pink" class="product"> </article>
+            <article><img src="img/img-barbershop.jpg" width="360" height="576" alt="barbershop" class="product"> </article>
+            <article><img src="img/img-mishka.jpg" width="360" height="576" alt="mishka" class="product"> </article>
+            <article><img src="img/img-aplus.jpg" width="360" height="576" alt="aplus" class="product"> </article>
+            <article><img src="img/img-kvast.jpg" width="360" height="576" alt="kvast" class="product"> </article>
+          </div>
+          <div class="pagination">
+            <ul>
+              <li class="active"><a href="#" class="page-number">1</a></li>
+              <li><a href="#" class="page-number">2</a></li>
+              <li><a href="#" class="page-number">3</a></li>
+              <li><a href="#" class="page-next">Следующая</a></li>
+            </ul>
+          </div>
+      </div>
     </div>
     <footer>
     <div id="map">
-      <div>
-          <h4>NЁRDS DESIGN STUDIO</h4>
-          <p>191186, Санкт-Петербург,<br>
-             ул. Б. Конюшенная, д. 19/8</p>
-          <p>тел. +7(812) 275-75-75</p>
-          <a href="#">Напишите нам</a>
+       <div class="contacts-pointer">
+        <div class="contacts">
+            <h4>NЁRDS DESIGN STUDIO</h4>
+            <p>191186, Санкт-Петербург,<br>
+               ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. +7(812) 275-75-75</p>
+            <a href="#">Напишите нам</a>
+        </div>
+        <div><img class="pointer" src="img/map-marker.png" width="231" height="190" alt="Нёрдс"></div>
       </div>
-      <div><img class="pointer" src="img/map-marker.png" width="231" height="190" alt="Нёрдс"></div>
-    </div>
-   <div class="social">
-    <div>
+  </div>
+    <div class="social clearfix">
+     <div class="footer-social">
+       <a href="#" title="вконтакте" class="vk"><img src="img/vk-icon.png" width="26" height="15" alt="Вконтакте"></a>
+       <a href="#" title="фейсбук" class="facebook"><img src="img/fb-icon.png" width="26" height="15" alt="Фейсбук"></a>
+       <a href="#" title="инстограмм" class="instogramm"><img src="img/insta-icon.png" width="26" height="15" alt="Инстограмм"></a>
+     </div>
+    <div class="footer-discount">
       <p>Давайте дружить,это выгодно!</p> Скидка 10% для друзей из социальных сетей
     </div>
-      <a href="#" title="вконтакте" class="vk"><img src="img/vk-icon.png" width="26" height="15" alt="Вконтакте"></a>
-      <a href="#" title="фейсбук" class="facebook"><img src="img/fb-icon.png" width="26" height="15" alt="Фейсбук"></a>
-      <a href="#" title="инстограмм" class="instogramm"><img src="img/insta-icon.png" width="26" height="15" alt="Инстограмм"></a>
     </div>
   </footer>
 </body>
