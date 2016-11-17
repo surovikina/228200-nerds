@@ -14,14 +14,14 @@
               <a><img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс"></a>
             </div>
             <ul class="main-menu">
-              <li><a class="nav__link" href="#">Студия</a></li>
+              <li class="active"><a class="nav__link" href="#">Студия</a></li>
               <li><a class="nav__link" href="#">Клиенты</a></li>
-              <li><a class="nav__link nav__link--active">Магазин</a></li>
+              <li><a class="nav__link" href="#">Магазин</a></li>
               <li><a class="nav__link" href="#">Контакты</a></li>
             </ul>
           </nav>
         <div class="user-block">
-          <a href="" class="cart"><img src="img/cart-icon.png" width="15" height="15" alt="Корзина">Корзина</a>
+          <a href="" class="cart">Корзина</a>
         </div>
         </div>
     <div class="slogan-slider clearfix">
@@ -29,43 +29,45 @@
         <h1>Долго, дорого, скупулёзно.</h1>
         <p>Математически выверенный дизайн<br>
            для вашего сайта или мобильного предложения.</p>
-        <a href="" class="content">Узнать больше</a>
+        <a href="#"class="btn">Узнать больше</a>
       </div>
+      <div class="pagination clearfix">
       <ul class="slider"><!--как правильно сделать слайды и фото подключить?-->
         <li><input type="radio" name="group1" class="active"></li>
         <li><input type="radio" name="group1"></li>
         <li><input type="radio" name="group1"></li>
       </ul>
+      </div>
   </div>
     </header>
     <div class="products clearfix">
       <div class="product">
           <img src="img/illustration-1.jpg" width="300" height="146" alt="Вэб-сайты">
-          <h3><a href="#">Вэб сайты</a></h3>
+          <h3><a href="#">Вэб-сайты</a></h3>
           <p>Мир никогда не будет преждним<br>
-             после того как увидит ваш сайт</p>
-          <a href="#">Заказать</a>
+             после того как увидит ваш сайт!</p>
+          <a href="#" class="product-one">Заказать</a>
       </div>
       <div class="product">
           <img src="img/illustration-2.jpg" width="300" height="146" alt="Приложения">
           <h3><a href="#">Приложения</a></h3>
           <p>Покорите топ-10 приложений в<br>
              AppStore и Google Play</p>
-          <a href="#">Заказать</a>
+          <a href="#"class="product-two">Заказать</a>
       </div>
       <div class="product">
           <img src="img/illustration-3.jpg" width="300" height="146" alt="Презентации">
           <h3><a href="#">Презентации</a></h3>
           <p>Вы даже не подозреваете,<br>
              насколько вы изумительны!</p>
-          <a href="#">Заказать</a>
+          <a href="#"class="product-htree">Заказать</a>
       </div>
     </div>
     <div class="features clearfix">
       <section class="desc">
-        <h2>Мы- маленькая, но гордая дизайн- студия из Краснодара.</h2>
-          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы7</p>
-          <div class="titel">Выполняем заказы на разработку</div>
+        <h2>Мы-маленькая, но гордая дизайн-студия из Краснодара.</h2>
+          <p class="fundamental">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы!</p>
+          <div class="orders">Выполняем заказы на разработку:</div>
           <ul class="services">
             <li>Веб-сайтов любой сложности</li>
             <li>Мобильных приложений для IOS и Android</li>
@@ -73,32 +75,33 @@
           </ul>
       </section>
       <div class="desc-logo">
-        <img class="logo" src="img/nerds-illustration.jpg" width="360" height="208" alt="Нёрдс">
+        <div class="foto-logo clearfix">
+          <img src="img/nerds-illustration.jpg" width="360" height="210" alt="Нёрдс">
+        </div>
         <div class="about-company">С 2004 года любим точность во всём:</div>
         <ul class="company-advantages">
-          <li>146% Уровень самоотдачи</li>
-          <li>100% Соблюдение сроков</li>
-          <li>50% Минимальная предоплата</li>
+          <li><span class="value">146<sup>%</sup></span><span class="description">Уровень самоотдачи</span></li>
+          <li><span class="value">100<sup>%</sup></span><span class="description">Соблюдение сроков</span></li>
+          <li><span class="value">50<sup>%</sup></span><span class="description">Минимальная предоплата</span></li>
         </ul>
       </div>
   </div>
-      <div class="partners clearfix">
-          <span class="partner"><a href="#"><img class="logo" src="img/logo-1.png" width="199" height="68" alt="Партнёр HTML Академия"></a></span>
-          <span class="partner"><a href="#"><img class="logo" src="img/logo-2.png" width="199" height="68" alt="Партнёр Borodinski"></a></span>
-          <span class="partner"><a href="#"><img class="logo" src="img/logo-3.png" width="199" height="68" alt="Партнёр Pink"></a></span>
-          <span class="partner"><a href="#"><img class="logo" src="img/logo-4.png" width="199" height="68" alt="Партнёр Mishka"></a></span>
-      </div>
-      <footer>
-      <div id="map">
-         <div class="contacts-pointer">
-          <div class="contacts">
+      <ul class="partners clearfix">
+          <li><span class="partner"><a href="#"><img class="logo-partner" src="img/logo-1.png" width="199" height="68" alt="Партнёр HTML Академия"></a></span></li>
+          <li><span class="partner"><a href="#"><img class="logo-partner" src="img/logo-2.png" width="199" height="68" alt="Партнёр Borodinski"></a></span></li>
+          <li><span class="partner"><a href="#"><img class="logo-partner" src="img/logo-3.png" width="199" height="68" alt="Партнёр Pink"></a></span></li>
+          <li><span class="partner"><a href="#"><img class="logo-partner" src="img/logo-4.png" width="199" height="68" alt="Партнёр Mishka"></a></span></li>
+      </ul>
+      <footer class="footer-wrap clearfix ">
+      <div class="map">
+         <div class="contacts-pointer clearfix">
+          <div class="adds">
               <h4>NЁRDS DESIGN STUDIO</h4>
               <p>191186, Санкт-Петербург,<br>
                  ул. Б. Конюшенная, д. 19/8</p>
               <p>тел. +7(812) 275-75-75</p>
-              <a href="#">Напишите нам</a>
+              <a class="btn" href="#">Напишите нам</a>
           </div>
-          <div><img class="pointer" src="img/map-marker.png" width="231" height="190" alt="Нёрдс"></div>
         </div>
     </div>
       <div class="social clearfix">
@@ -108,7 +111,7 @@
          <a href="#" title="инстограмм" class="instogramm"><img src="img/insta-icon.png" width="26" height="15" alt="Инстограмм"></a>
        </div>
       <div class="footer-discount">
-        <p>Давайте дружить,это выгодно!</p> Скидка 10% для друзей из социальных сетей
+        <p class="discount-slogan">Давайте дружить,это выгодно!</p> <p class="discount-sum">Скидка 10% для друзей из социальных сетей.</p>
       </div>
       </div>
     </footer>
